@@ -3,7 +3,7 @@
     <BuildType Name="Development" />
     <Platform Name="Default" />
   </Configurations>
-  <Project Path="Cubo_OLAP_AereoLineas/Cubo_OLAP_AereoLineas.dwproj" Type="d2abab84-bf74-430a-b69e-9dc6d40dda17">
+  <Project Path="Cubo_OLAP_AeroLineas/Cubo_OLAP_AeroLineas.dwproj" Type="d2abab84-bf74-430a-b69e-9dc6d40dda17">
     <Platform Project="?" />
     <Deploy />
   </Project>
