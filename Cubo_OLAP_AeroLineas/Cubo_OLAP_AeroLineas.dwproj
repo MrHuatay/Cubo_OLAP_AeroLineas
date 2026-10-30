@@ -6,10 +6,87 @@
     <Name>Cubo_OLAP_AeroLineas.database</Name>
     <FullPath>Cubo_OLAP_AeroLineas.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>BD Aerolineas.cube</Name>
+      <FullPath>BD Aerolineas.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BD Aerolineas.partitions</Name>
+          <FullPath>BD Aerolineas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Ruta.dim</Name>
+      <FullPath>Dim Ruta.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Fenomeno Climatico.dim</Name>
+      <FullPath>Dim Fenomeno Climatico.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Aeronave.dim</Name>
+      <FullPath>Dim Aeronave.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tiempo.dim</Name>
+      <FullPath>Dim Tiempo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tripulacion.dim</Name>
+      <FullPath>Dim Tripulacion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Causa Demora.dim</Name>
+      <FullPath>Dim Causa Demora.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Clima.dim</Name>
+      <FullPath>Dim Clima.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Estado Vuelo.dim</Name>
+      <FullPath>Dim Estado Vuelo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Aeropuerto.dim</Name>
+      <FullPath>Dim Aeropuerto.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>BD Aerolineas.ds</Name>
+      <FullPath>BD Aerolineas.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>BD Aerolineas.dsv</Name>
+      <FullPath>BD Aerolineas.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>BD Aerolineas</Id>
+            <Name>BD Aerolineas</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=E-305-PC01;Persist Security Info=True;Password=;User ID=;Initial Catalog=BDAerolineas</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>BD Aerolineas</Id>
+            <Name>BD Aerolineas</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

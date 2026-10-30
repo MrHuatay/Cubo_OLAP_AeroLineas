@@ -1,0 +1,198 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="68d0825b-08bf-4d18-afda-2a2fa921eb0c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Clima</ID>
+  <Name>Dim Clima</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2639" scrolltop="-6508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimClima" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4128" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000020100000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimClima" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2639</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6508</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5065a7f8-0b4d-49a7-94dd-2e962eded772">
+    <DataSourceViewID>BD Aerolineas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="1ffc44c7-3ca1-41ce-b298-fea7fc10de7e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="28c70e55-a042-44dd-af71-546a25c107f7">
+      <ID>Id Clima PK</ID>
+      <Name>Id Clima PK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1c4f5a7b-dee0-4646-9758-92598df6ba36">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="731ef1a5-4791-4d0f-aa7a-ee22a01bbe6b">
+            <TableID>dbo_DimClima</TableID>
+            <ColumnID>IdClimaPK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="869c3bed-17c4-4966-b501-76791e1f8485">
+          <AttributeID>Velocidad Viento Kmh</AttributeID>
+          <Name>Velocidad Viento Kmh</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="11f318e0-bab1-4e33-aada-0dee2ce523c7">
+          <AttributeID>Visibilidad Metros</AttributeID>
+          <Name>Visibilidad Metros</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d27ad625-c540-405a-b9c5-8e37c0f35d5c">
+          <AttributeID>Precipitacion Mm</AttributeID>
+          <Name>Precipitacion Mm</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9637cb0f-a70c-4269-aadb-d895c382d629">
+          <AttributeID>Temperatura Grados C</AttributeID>
+          <Name>Temperatura Grados C</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cdc15e17-0f8d-48ec-a536-b7ef9ddb4335">
+          <AttributeID>Presion Atmosferica Hpa</AttributeID>
+          <Name>Presion Atmosferica Hpa</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="864a77c6-dfdb-4a20-9817-4ed20c32765f">
+      <ID>Velocidad Viento Kmh</ID>
+      <Name>Velocidad Viento Kmh</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="377ae571-9a43-43e7-9ea9-ce195a9b18ee">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1f3e3aa-9f8c-4e05-b71a-981776a27c70">
+            <TableID>dbo_DimClima</TableID>
+            <ColumnID>VelocidadVientoKmh</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="457c0829-cf63-4b67-9c0a-50e4d6730f9d">
+      <ID>Visibilidad Metros</ID>
+      <Name>Visibilidad Metros</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b3889f0-d2ee-47dc-a40c-bcb016885c64">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1b17c5ab-1bfe-40bc-a2e0-9333318a15d8">
+            <TableID>dbo_DimClima</TableID>
+            <ColumnID>VisibilidadMetros</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a71bffdb-1e32-47cd-837e-0f84d6149e4a">
+      <ID>Precipitacion Mm</ID>
+      <Name>Precipitacion Mm</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="45f0649d-0b46-4ae1-8c21-7eecffd145b6">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3960b79e-e7dc-4068-9358-f41bbc00052c">
+            <TableID>dbo_DimClima</TableID>
+            <ColumnID>PrecipitacionMm</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="17f7912f-e6ef-460f-a6f6-31d71faf491b">
+      <ID>Temperatura Grados C</ID>
+      <Name>Temperatura Grados C</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63a0609c-d8ce-47ba-90bb-46303a4d5a98">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b17abc9f-01c9-4c43-b526-a002604faf6c">
+            <TableID>dbo_DimClima</TableID>
+            <ColumnID>TemperaturaGradosC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e72d34c7-d54e-46d4-8ae2-8273357455b0">
+      <ID>Presion Atmosferica Hpa</ID>
+      <Name>Presion Atmosferica Hpa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd2cf21c-b2b9-4eb3-beab-98c2134a1f48">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c98c6c6e-130a-4ed8-b4e1-5a47f12f567e">
+            <TableID>dbo_DimClima</TableID>
+            <ColumnID>PresionAtmosfericaHpa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

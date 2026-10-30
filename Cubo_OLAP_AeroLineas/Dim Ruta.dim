@@ -1,0 +1,201 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="703ac790-063f-4af3-8df2-1c16497337cf" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Ruta</ID>
+  <Name>Dim Ruta</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3182" scrolltop="-6508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimRuta" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3043" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e30b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimRuta" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3182</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6508</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7d009d4c-0eb3-4de0-9ee7-eed586830d78">
+    <DataSourceViewID>BD Aerolineas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="158bbe51-4a7b-430c-8ab1-a21c14b7140f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0ecf57dd-749a-4679-a974-a7ea44c7fe25">
+      <ID>Id Ruta PK</ID>
+      <Name>Id Ruta PK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a9e7cbac-5ee9-4f64-bb36-e1dbc5521bd9">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5f6be61-3a70-439e-a104-3368b6919ba7">
+            <TableID>dbo_DimRuta</TableID>
+            <ColumnID>IdRutaPK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="10e1ae08-81a3-4b67-b609-d20fbc75bad6">
+          <AttributeID>Codigo Ruta</AttributeID>
+          <Name>Codigo Ruta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="62196a72-9e38-4999-83bb-a5e5e146d2e8">
+          <AttributeID>Ciudad Origen</AttributeID>
+          <Name>Ciudad Origen</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="32fc495a-4e8d-4077-932c-48e842053d47">
+          <AttributeID>Ciudad Destino</AttributeID>
+          <Name>Ciudad Destino</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dc097703-4d12-40c3-8d2b-b8f2082b8ca0">
+          <AttributeID>Distancia Km</AttributeID>
+          <Name>Distancia Km</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7aaa4d0f-1edd-42e7-9bd9-a521e2bcdb5a">
+          <AttributeID>Duracion Min</AttributeID>
+          <Name>Duracion Min</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f9ca60b-974e-42ac-b437-e748ac5fb5b3">
+      <ID>Codigo Ruta</ID>
+      <Name>Codigo Ruta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="557ca871-ea5a-4371-95ca-46ca2cfe35b8">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="46c41a27-4ce1-49d8-8da9-d0e8e4cc1d6e">
+            <TableID>dbo_DimRuta</TableID>
+            <ColumnID>CodigoRuta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cf39a7fb-8c84-44cc-bd41-050052226908">
+      <ID>Ciudad Origen</ID>
+      <Name>Ciudad Origen</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7ab52460-6f47-48f6-820a-f37e549210cb">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45163271-1458-434c-9a2f-a90dbe4e0e34">
+            <TableID>dbo_DimRuta</TableID>
+            <ColumnID>CiudadOrigen</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e29a1316-6f7e-4794-ac88-70e7aea19cad">
+      <ID>Ciudad Destino</ID>
+      <Name>Ciudad Destino</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9da6076e-e704-4096-af56-9df302b9a810">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a90adedc-037d-4815-8ad1-06a5daefbc63">
+            <TableID>dbo_DimRuta</TableID>
+            <ColumnID>CiudadDestino</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d1cbee2-b69b-4368-a2cd-fafe2abbe935">
+      <ID>Distancia Km</ID>
+      <Name>Distancia Km</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="efde1848-74c8-4a3c-9f95-751fc501712c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0cd18d7e-11f0-46ca-bf45-f2127839377b">
+            <TableID>dbo_DimRuta</TableID>
+            <ColumnID>DistanciaKm</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="76398368-db65-4392-97c1-3f777f1ed753">
+      <ID>Duracion Min</ID>
+      <Name>Duracion Min</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="903a4216-8c04-4916-bc3e-169a957a505d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4de08939-e4b1-4a7f-acb3-f1ed6d416f6d">
+            <TableID>dbo_DimRuta</TableID>
+            <ColumnID>DuracionMin</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

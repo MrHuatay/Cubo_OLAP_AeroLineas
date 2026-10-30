@@ -1,0 +1,202 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="59711854-fd0d-4de0-8b13-42aeeea805c1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Tripulacion</ID>
+  <Name>Dim Tripulacion</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2600" scrolltop="-6508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimTripulacion" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4207" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006f100000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimTripulacion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2600</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6508</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6e5ef364-2526-4368-bcf9-d25265699238">
+    <DataSourceViewID>BD Aerolineas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="6b289eab-f946-4b9f-9772-ad0baecf1342">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1eb98827-5ed3-4ec6-bddc-b51b173ac747">
+      <ID>Id Tripulacion PK</ID>
+      <Name>Id Tripulacion PK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="abf16270-c6d0-4e43-a2c6-dd593fae820c">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad71f977-309f-4b6a-b553-0c676b26547b">
+            <TableID>dbo_DimTripulacion</TableID>
+            <ColumnID>IdTripulacionPK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2fb363c0-8396-4259-9dd9-dfedda09118b">
+          <AttributeID>Codigo Equipo</AttributeID>
+          <Name>Codigo Equipo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d81cda0c-f8cb-4cd5-9489-393e247b9119">
+          <AttributeID>Capitan Cargo</AttributeID>
+          <Name>Capitan Cargo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="de9aba7e-cc7a-408c-a84e-9e251bf4d324">
+          <AttributeID>Horas Vuelo Acumuladas</AttributeID>
+          <Name>Horas Vuelo Acumuladas</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9162c795-f8dc-4982-af21-e36e28dfd348">
+          <AttributeID>Nivel Fatiga</AttributeID>
+          <Name>Nivel Fatiga</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e40a6b00-b343-4e3e-93ab-3fda9261c997">
+          <AttributeID>Turno Operativo</AttributeID>
+          <Name>Turno Operativo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5e1a6b90-e4cd-4476-b860-5d2dd46e29f4">
+      <ID>Codigo Equipo</ID>
+      <Name>Codigo Equipo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a77be146-ec10-4b87-b94b-3bdc7dcd4f16">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95a6c3a2-299d-460e-9798-395f7238b7d3">
+            <TableID>dbo_DimTripulacion</TableID>
+            <ColumnID>CodigoEquipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d7ecf778-1a9c-43a3-8a5c-7af412940019">
+      <ID>Capitan Cargo</ID>
+      <Name>Capitan Cargo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cad3fff7-7591-45f5-b945-dfc9851ec4c3">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb954f3a-00cc-4421-a78b-f5ce8a64b1b3">
+            <TableID>dbo_DimTripulacion</TableID>
+            <ColumnID>CapitanCargo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b0b7e536-616f-4f16-b120-2076abc8a69a">
+      <ID>Horas Vuelo Acumuladas</ID>
+      <Name>Horas Vuelo Acumuladas</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1120918b-5d7a-4ef5-9108-8131a62416a4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5ee983a-ded6-4e15-8bab-2d49c6ea0da9">
+            <TableID>dbo_DimTripulacion</TableID>
+            <ColumnID>HorasVueloAcumuladas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f516b25-0721-47d5-9a66-d4fe6acc2cb9">
+      <ID>Nivel Fatiga</ID>
+      <Name>Nivel Fatiga</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f562b2c6-9cb4-455d-86f6-d2b6c634245a">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0193f85-6b38-47ce-ba30-fc8118c244d5">
+            <TableID>dbo_DimTripulacion</TableID>
+            <ColumnID>NivelFatiga</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="31b4f8b1-4a78-4fe8-af49-e605972b5e5c">
+      <ID>Turno Operativo</ID>
+      <Name>Turno Operativo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b1995529-a225-4c09-b032-8226ece0486a">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8e8129d-3c14-46ba-b59f-2b8499b3b402">
+            <TableID>dbo_DimTripulacion</TableID>
+            <ColumnID>TurnoOperativo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
