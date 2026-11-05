@@ -76,7 +76,7 @@
           <ConfigurationSetting>
             <Id>BD Aerolineas</Id>
             <Name>BD Aerolineas</Name>
-            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=LAPTOP-AR4IEGS7\SQL2026;Password=;User ID=;Initial Catalog=BDAerolineas</Value>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=ARROYO\SQL2025;Persist Security Info=True;Password=;User ID=;Initial Catalog=BDAerolineas</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
