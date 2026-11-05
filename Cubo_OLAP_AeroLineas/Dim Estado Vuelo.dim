@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="41cde21b-de47-4a35-8ba4-b35e868330d0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="077ee173-1097-45a1-8e94-554fd8ec8a2b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Estado Vuelo</ID>
   <Name>Dim Estado Vuelo</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2745" scrolltop="-6932" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-255" scrolltop="-4752" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7133" y="12256" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimEstadoVuelo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3916" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimEstadoVuelo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6138" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f0000a50a0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fa17000003090000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2745</Value>
+      <Value>-255</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6932</Value>
+      <Value>-4752</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,90 +68,90 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4081d06d-bb97-4f58-920f-5bac6ae57972">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f535211a-23dd-45c7-9823-196f9fabf86d">
     <DataSourceViewID>BD Aerolineas</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8a1c33ff-3669-458f-8e6b-fa17d9df7aff">
+  <ErrorConfiguration dwd:design-time-name="649585b1-b06e-41b1-936f-ab6e455bd253">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="f1953ae3-b4fd-4b9b-9a85-ead5ff0691ac">
-      <ID>Id Estado PK</ID>
-      <Name>Id Estado PK</Name>
+    <Attribute dwd:design-time-name="b1f04528-72fc-4bde-8c62-61cc16e5e922">
+      <ID>Dim Estado Vuelo Codigo</ID>
+      <Name>Dim Estado Vuelo Codigo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="04deba26-8165-46f0-8a95-f27a0ba7a291">
+        <KeyColumn dwd:design-time-name="27522347-0148-4fef-b83d-409a7fcf1e32">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="04189ac1-5cb3-4cf0-8ae5-2bb63ff5cdb6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ded711a-0b36-491f-9682-5867907c91aa">
             <TableID>dbo_DimEstadoVuelo</TableID>
-            <ColumnID>IdEstadoPK</ColumnID>
+            <ColumnID>DimEstadoVueloCodigo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4b828a50-1749-49ca-9936-e5a2a451b1ae">
-          <AttributeID>Numero Vuelo</AttributeID>
-          <Name>Numero Vuelo</Name>
+        <AttributeRelationship dwd:design-time-name="530224bf-0f61-45d4-bae5-9c9efb710322">
+          <AttributeID>Dim Estado Vuelo Numero Vuelo</AttributeID>
+          <Name>Dim Estado Vuelo Numero Vuelo</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="43cbf865-1b57-4070-8939-677661e83925">
-          <AttributeID>Estado Operacion</AttributeID>
-          <Name>Estado Operacion</Name>
+        <AttributeRelationship dwd:design-time-name="8f4658ee-f2fb-4015-b07e-bed4a1d26a5d">
+          <AttributeID>Dim Estado Vuelo Estado Operacion</AttributeID>
+          <Name>Dim Estado Vuelo Estado Operacion</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3519724b-52e2-4ef1-b465-0f43723d23a3">
-          <AttributeID>Nivel Impacto Itinerario</AttributeID>
-          <Name>Nivel Impacto Itinerario</Name>
+        <AttributeRelationship dwd:design-time-name="e72771b5-23b7-4453-8f0d-f4dabc807787">
+          <AttributeID>Dim Estado Vuelo Nivel Impacto Itinerario</AttributeID>
+          <Name>Dim Estado Vuelo Nivel Impacto Itinerario</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7d7b172f-8b86-4dc8-8c16-06ccefb27c6a">
-      <ID>Numero Vuelo</ID>
-      <Name>Numero Vuelo</Name>
+    <Attribute dwd:design-time-name="6e279048-ffe3-49fb-a7a6-0909a25ced6d">
+      <ID>Dim Estado Vuelo Numero Vuelo</ID>
+      <Name>Dim Estado Vuelo Numero Vuelo</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="14b0c23d-09c3-473c-b4d2-bb2a368a1b13">
+        <KeyColumn dwd:design-time-name="a7c2cf34-8b6d-4de4-ba99-7249d05dd2fd">
           <DataType>WChar</DataType>
           <DataSize>15</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d239e42c-a1aa-4904-af32-9c5e61f14650">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4cf694af-647e-4718-ae28-d197048e60a2">
             <TableID>dbo_DimEstadoVuelo</TableID>
-            <ColumnID>NumeroVuelo</ColumnID>
+            <ColumnID>DimEstadoVueloNumeroVuelo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1d06d393-ff5f-4145-9afb-acd5e9feb688">
-      <ID>Estado Operacion</ID>
-      <Name>Estado Operacion</Name>
+    <Attribute dwd:design-time-name="c5f0add2-7b56-42c2-b06c-337a3ed885c6">
+      <ID>Dim Estado Vuelo Estado Operacion</ID>
+      <Name>Dim Estado Vuelo Estado Operacion</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="01000d02-cc87-4729-b2bc-293e00847c5f">
+        <KeyColumn dwd:design-time-name="acf46ad4-4094-46ad-a381-8a73039f623d">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="79dafbec-59f5-49b7-8d19-448b1a77c1e3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e12976ed-6f38-4834-9b45-563f2eb203ef">
             <TableID>dbo_DimEstadoVuelo</TableID>
-            <ColumnID>EstadoOperacion</ColumnID>
+            <ColumnID>DimEstadoVueloEstadoOperacion</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cb0b2f2e-1184-432e-874e-1433d7635ab3">
-      <ID>Nivel Impacto Itinerario</ID>
-      <Name>Nivel Impacto Itinerario</Name>
+    <Attribute dwd:design-time-name="c070d212-a4ca-4a34-9781-cfbc976f859c">
+      <ID>Dim Estado Vuelo Nivel Impacto Itinerario</ID>
+      <Name>Dim Estado Vuelo Nivel Impacto Itinerario</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="af96fdb2-f8da-4014-a35f-a6d645232518">
+        <KeyColumn dwd:design-time-name="468c3af9-4a9a-47cd-aba6-c918e9d6b3fb">
           <DataType>WChar</DataType>
           <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="058d91a5-6248-460c-8aaf-8e73e18927d1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e8453cfb-e518-4a63-bed5-bdfa71002465">
             <TableID>dbo_DimEstadoVuelo</TableID>
-            <ColumnID>NivelImpactoItinerario</ColumnID>
+            <ColumnID>DimEstadoVueloNivelImpactoItinerario</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

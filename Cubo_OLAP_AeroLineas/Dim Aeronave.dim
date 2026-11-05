@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="486d09e7-08c8-4f22-a601-efa84ca7e1fd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d9979610-04d2-4565-883d-4d78b0f59d15" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Aeronave</ID>
   <Name>Dim Aeronave</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2415" scrolltop="-6720" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-65" scrolltop="-4572" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7133" y="12256" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAeronave" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4577" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAeronave" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6519" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000e11100004d0c0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e0000771900006b0a0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2415</Value>
+      <Value>-65</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6720</Value>
+      <Value>-4572</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,108 +68,108 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cc750c76-cc8a-4f7d-a3b0-fd1f2d04d4b0">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1fef172d-7913-40e8-af2a-caee23386a5c">
     <DataSourceViewID>BD Aerolineas</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="86424f84-babb-4578-bd9d-ee9c54ddf494">
+  <ErrorConfiguration dwd:design-time-name="f19b8323-eead-4c64-9475-82ba7244cfdf">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="e29eb9cd-ac2a-4e56-8fbe-7d3bd5b705f2">
-      <ID>Id Aeronave PK</ID>
-      <Name>Id Aeronave PK</Name>
+    <Attribute dwd:design-time-name="266061d5-6acd-47c1-a20a-9abd1dce608e">
+      <ID>Dim Aeronave Codigo</ID>
+      <Name>Dim Aeronave Codigo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="469cf0dc-8745-4823-b46e-0bcec0d2cb4a">
+        <KeyColumn dwd:design-time-name="2344c17a-8ef0-4393-b424-f13c736574d2">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="58e08dc8-c2c6-4201-8152-8be25c22c1dd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa72c9a9-1dfb-42e9-8e82-da93c546b00a">
             <TableID>dbo_DimAeronave</TableID>
-            <ColumnID>IdAeronavePK</ColumnID>
+            <ColumnID>DimAeronaveCodigo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="094a7d91-4646-40bb-a122-be3252f265fa">
-          <AttributeID>Matricula</AttributeID>
-          <Name>Matricula</Name>
+        <AttributeRelationship dwd:design-time-name="12e0357f-a0f2-4d53-866c-d83ff71677df">
+          <AttributeID>Dim Aeronave Matricula</AttributeID>
+          <Name>Dim Aeronave Matricula</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="51b70c39-c9ed-4b78-bd94-ca4c672b0e2f">
-          <AttributeID>Modelo</AttributeID>
-          <Name>Modelo</Name>
+        <AttributeRelationship dwd:design-time-name="08b4204f-a1b8-4fa0-aadd-06bfeca52ab6">
+          <AttributeID>Dim Aeronave Modelo</AttributeID>
+          <Name>Dim Aeronave Modelo</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ee7657fd-305d-4f43-a1ad-c1c80e929060">
-          <AttributeID>Capacidad Pasajeros</AttributeID>
-          <Name>Capacidad Pasajeros</Name>
+        <AttributeRelationship dwd:design-time-name="0a9146ab-0233-4152-bd1d-a4cfda2ca376">
+          <AttributeID>Dim Aeronave Capacidad Pasajeros</AttributeID>
+          <Name>Dim Aeronave Capacidad Pasajeros</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5324a668-43e1-41e8-95e8-8774c302a9aa">
-          <AttributeID>Consumo Promedio Gal Hora</AttributeID>
-          <Name>Consumo Promedio Gal Hora</Name>
+        <AttributeRelationship dwd:design-time-name="adc5c23b-0395-4d9f-a4c1-591f3ba9c7eb">
+          <AttributeID>Dim Aeronave Consumo Promedio Gal Hora</AttributeID>
+          <Name>Dim Aeronave Consumo Promedio Gal Hora</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8c59f1ef-177b-4cbf-bff4-4ec38836f259">
-      <ID>Matricula</ID>
-      <Name>Matricula</Name>
+    <Attribute dwd:design-time-name="365c6040-ea5d-4409-b560-4fe0f4ad1282">
+      <ID>Dim Aeronave Matricula</ID>
+      <Name>Dim Aeronave Matricula</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a1d55f61-c996-4f51-91b9-3247c85c6b4e">
+        <KeyColumn dwd:design-time-name="11eee9f3-2cb8-4304-a462-d583a7dd883f">
           <DataType>WChar</DataType>
           <DataSize>15</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a02b1f00-6a5c-43e2-9eac-97aaf76f9564">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58cca8e0-edea-4d12-aa00-3a8b35bdac0f">
             <TableID>dbo_DimAeronave</TableID>
-            <ColumnID>Matricula</ColumnID>
+            <ColumnID>DimAeronaveMatricula</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b99c9e55-8c24-4526-8ae8-ae26ad256661">
-      <ID>Modelo</ID>
-      <Name>Modelo</Name>
+    <Attribute dwd:design-time-name="29086510-99bf-4a2e-b1ba-ed3729c83c54">
+      <ID>Dim Aeronave Modelo</ID>
+      <Name>Dim Aeronave Modelo</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b6e7bf28-d5c9-41f7-9889-9225a12d7739">
+        <KeyColumn dwd:design-time-name="1cc7501d-9d4c-49dc-afea-92de5bb432f4">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b26ab4b3-38f6-4246-86b3-c3c396e5f53c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="167e71ce-e344-4f50-ac2d-e65b7b8c7e64">
             <TableID>dbo_DimAeronave</TableID>
-            <ColumnID>Modelo</ColumnID>
+            <ColumnID>DimAeronaveModelo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cc822cc2-5c23-443f-8911-90192aa0dbcd">
-      <ID>Capacidad Pasajeros</ID>
-      <Name>Capacidad Pasajeros</Name>
+    <Attribute dwd:design-time-name="2c6c1d6b-4c74-42c5-ace8-9150c2284f52">
+      <ID>Dim Aeronave Capacidad Pasajeros</ID>
+      <Name>Dim Aeronave Capacidad Pasajeros</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b82e1c54-4b83-4013-abc5-96439f6cdb2a">
+        <KeyColumn dwd:design-time-name="bdf5bfac-36aa-4663-947f-8a85afff213d">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bea5ed5b-b458-4c8c-806d-e64741fac915">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b43b43fe-2c7b-41f3-9a3e-ebbcce569d46">
             <TableID>dbo_DimAeronave</TableID>
-            <ColumnID>CapacidadPasajeros</ColumnID>
+            <ColumnID>DimAeronaveCapacidadPasajeros</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e04fd66a-26cb-4883-bb43-b5f1a439f259">
-      <ID>Consumo Promedio Gal Hora</ID>
-      <Name>Consumo Promedio Gal Hora</Name>
+    <Attribute dwd:design-time-name="4aec7525-4bd7-4b4c-a5af-ca310c5ffab9">
+      <ID>Dim Aeronave Consumo Promedio Gal Hora</ID>
+      <Name>Dim Aeronave Consumo Promedio Gal Hora</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1d688dfe-6b4b-4d14-8cd1-2f0d3afc418a">
+        <KeyColumn dwd:design-time-name="55eda7f1-f7c8-41a2-8874-35804bdea963">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5e734ad-b372-4145-ae1b-4975e024c194">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f5f301a-330b-449b-b1e9-e0d567eb4aaa">
             <TableID>dbo_DimAeronave</TableID>
-            <ColumnID>ConsumoPromedioGalHora</ColumnID>
+            <ColumnID>DimAeronaveConsumoPromedioGalHora</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

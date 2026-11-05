@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b1efb622-e97d-42fd-a109-0ad089fc3971" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74857811-ca86-4adf-b1df-704df0bea924" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Fenomeno Climatico</ID>
   <Name>Dim Fenomeno Climatico</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2944" scrolltop="-6932" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-212" scrolltop="-4975" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7133" y="12256" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimFenomenoClimatico" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3519" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimFenomenoClimatico" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6668" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000bf0d0000a50a0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e00000c1a000003090000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2944</Value>
+      <Value>-212</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6932</Value>
+      <Value>-4975</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,90 +68,90 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6c1bc0c8-bca7-48da-90e4-4e73aa2dd4c3">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a83ee319-16a8-43cc-a767-fcf2533f7235">
     <DataSourceViewID>BD Aerolineas</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="f6122dfe-0d62-4281-9c76-6429a2b31e06">
+  <ErrorConfiguration dwd:design-time-name="3a7a4306-326e-45d5-ada6-1fd7c05d434e">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="ed42792d-074d-40c7-850e-3b5e03872f93">
-      <ID>Id Fenomeno PK</ID>
-      <Name>Id Fenomeno PK</Name>
+    <Attribute dwd:design-time-name="cb48b44d-16a9-4836-8385-dd29368bf934">
+      <ID>Dim Fenomeno Climatico Codigo</ID>
+      <Name>Dim Fenomeno Climatico Codigo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="59b0d73c-c041-4897-8acd-2365c7fc0bf6">
+        <KeyColumn dwd:design-time-name="59ab6432-4dd9-48d9-bb5b-f0272ca88099">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcc6fb36-b60b-43a0-a569-f45e2853fb89">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3fa50604-ce91-4d04-8225-6e818ef5c58e">
             <TableID>dbo_DimFenomenoClimatico</TableID>
-            <ColumnID>IdFenomenoPK</ColumnID>
+            <ColumnID>DimFenomenoClimaticoCodigo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a278652a-2654-426a-ae06-ed805f85d6e2">
-          <AttributeID>Nombre Fenomeno</AttributeID>
-          <Name>Nombre Fenomeno</Name>
+        <AttributeRelationship dwd:design-time-name="e1bc27cc-1e04-42bf-9707-f96e961e062b">
+          <AttributeID>Dim Fenomeno Climatico Nombre Fenomeno</AttributeID>
+          <Name>Dim Fenomeno Climatico Nombre Fenomeno</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="04319bc7-3836-412a-8243-a46db679ce4f">
-          <AttributeID>Tipo Anomalia</AttributeID>
-          <Name>Tipo Anomalia</Name>
+        <AttributeRelationship dwd:design-time-name="6bede92b-85d8-44f9-8603-1de87d736dba">
+          <AttributeID>Dim Fenomeno Climatico Tipo Anomalia</AttributeID>
+          <Name>Dim Fenomeno Climatico Tipo Anomalia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="12101580-e854-418e-8543-a547ed467349">
-          <AttributeID>Nivel Severidad</AttributeID>
-          <Name>Nivel Severidad</Name>
+        <AttributeRelationship dwd:design-time-name="ba7d03f2-b5f3-48a1-a239-2c9da70dd754">
+          <AttributeID>Dim Fenomeno Climatico Nivel Severidad</AttributeID>
+          <Name>Dim Fenomeno Climatico Nivel Severidad</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="06883767-0428-40c5-9501-e19abbf9e6b3">
-      <ID>Nombre Fenomeno</ID>
-      <Name>Nombre Fenomeno</Name>
+    <Attribute dwd:design-time-name="43704baa-4995-450f-8cd9-2bb9fc2e2738">
+      <ID>Dim Fenomeno Climatico Nombre Fenomeno</ID>
+      <Name>Dim Fenomeno Climatico Nombre Fenomeno</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b086be02-8beb-4f1b-8f48-f5d65dcace68">
+        <KeyColumn dwd:design-time-name="186a1109-7d3a-4bfe-84c4-7ce08e4ac748">
           <DataType>WChar</DataType>
           <DataSize>60</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c707fe64-77a9-421b-b52e-b89a639ae869">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="082ec615-958d-4e31-855f-d016b67eb9dc">
             <TableID>dbo_DimFenomenoClimatico</TableID>
-            <ColumnID>NombreFenomeno</ColumnID>
+            <ColumnID>DimFenomenoClimaticoNombreFenomeno</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="aee2e103-e5d6-4076-8d5e-0b20a25df5a9">
-      <ID>Tipo Anomalia</ID>
-      <Name>Tipo Anomalia</Name>
+    <Attribute dwd:design-time-name="7daa729b-9d79-4701-95b3-4f68ad3f2cb0">
+      <ID>Dim Fenomeno Climatico Tipo Anomalia</ID>
+      <Name>Dim Fenomeno Climatico Tipo Anomalia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d5eec139-b22c-4fd0-992b-32cc532c142a">
+        <KeyColumn dwd:design-time-name="53ef2a29-547c-4f60-87cf-7bc5187c3993">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd4dd00b-ce0a-4c2a-be9c-0ef3df33c64c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f387eae-1e78-4e93-a14d-52b9e4ffd9c6">
             <TableID>dbo_DimFenomenoClimatico</TableID>
-            <ColumnID>TipoAnomalia</ColumnID>
+            <ColumnID>DimFenomenoClimaticoTipoAnomalia</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c2609fe2-5dba-4d6a-95c4-d9d3e4d4b27c">
-      <ID>Nivel Severidad</ID>
-      <Name>Nivel Severidad</Name>
+    <Attribute dwd:design-time-name="591d5507-9040-40c8-96d2-f98714e9b721">
+      <ID>Dim Fenomeno Climatico Nivel Severidad</ID>
+      <Name>Dim Fenomeno Climatico Nivel Severidad</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3eba1d7b-ac40-4287-8ac9-38d8efde34e5">
+        <KeyColumn dwd:design-time-name="f35e9d8f-885f-4b42-801b-39830e5b63a6">
           <DataType>WChar</DataType>
           <DataSize>25</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="03062203-1eff-42ca-86b6-785300dc206b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d47ab2bd-029a-4940-a504-cc946f104b53">
             <TableID>dbo_DimFenomenoClimatico</TableID>
-            <ColumnID>NivelSeveridad</ColumnID>
+            <ColumnID>DimFenomenoClimaticoNivelSeveridad</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

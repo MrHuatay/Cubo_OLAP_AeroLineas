@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="94d363b4-dade-4b8f-9e3a-72417aa19db8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2d769d98-ac42-4706-b87a-d828d73b327e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Aeropuerto</ID>
   <Name>Dim Aeropuerto</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2507" scrolltop="-6508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-308" scrolltop="-4615" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7133" y="12256" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAeropuerto" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4392" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAeropuerto" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6477" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e000028110000f40d0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e00004d190000d30b0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2507</Value>
+      <Value>-308</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6508</Value>
+      <Value>-4615</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,129 +68,129 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0a2a839b-9a71-4684-a738-ae902ca22c37">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ef1b8bb3-ece6-4238-b610-a70d553fab0e">
     <DataSourceViewID>BD Aerolineas</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="ce3ccb75-81a0-49e2-9b50-5c0ea1a68f19">
+  <ErrorConfiguration dwd:design-time-name="a2361592-41e1-4b49-baa1-9cfcc32e69d2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="30789d73-29ac-4ead-815c-145ee0742c08">
-      <ID>Id Aeropuerto PK</ID>
-      <Name>Id Aeropuerto PK</Name>
+    <Attribute dwd:design-time-name="8ebd0c7a-931b-41a9-af01-634aa316bf2a">
+      <ID>Dim Aeropuerto Codigo</ID>
+      <Name>Dim Aeropuerto Codigo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a0e37fbc-a749-4659-b2bc-86d1504ed7ec">
+        <KeyColumn dwd:design-time-name="e8a3dd8d-757d-467a-9930-92df5c9b8a57">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7bdb22ff-f464-4c44-90bb-d8c02b4c2fe3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f445cbdf-4d4f-4697-9e79-36cd955809e0">
             <TableID>dbo_DimAeropuerto</TableID>
-            <ColumnID>IdAeropuertoPK</ColumnID>
+            <ColumnID>DimAeropuertoCodigo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4a8451a7-ce6a-4d43-be50-b3fb63dc3a53">
-          <AttributeID>Codigo IATA</AttributeID>
-          <Name>Codigo IATA</Name>
+        <AttributeRelationship dwd:design-time-name="78a83383-65b0-4d67-942d-8eff63ac75fb">
+          <AttributeID>Dim Aeropuerto Codigo IATA</AttributeID>
+          <Name>Dim Aeropuerto Codigo IATA</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ecdd1fea-3133-462e-a1ba-bfec56680c48">
-          <AttributeID>Nombre Aeropuerto</AttributeID>
-          <Name>Nombre Aeropuerto</Name>
+        <AttributeRelationship dwd:design-time-name="846e81c4-c160-481e-8cd7-8aee60647edb">
+          <AttributeID>Dim Aeropuerto Nombre Aeropuerto</AttributeID>
+          <Name>Dim Aeropuerto Nombre Aeropuerto</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="43bae63b-bb6f-4a4e-a004-9c7e4b43a1ce">
-          <AttributeID>Ciudad</AttributeID>
-          <Name>Ciudad</Name>
+        <AttributeRelationship dwd:design-time-name="7f7a3406-c50c-431f-a0ec-a01da9032923">
+          <AttributeID>Dim Aeropuerto Ciudad</AttributeID>
+          <Name>Dim Aeropuerto Ciudad</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f157f54f-735f-4c5c-b6c6-15445efb7619">
-          <AttributeID>Departamento</AttributeID>
-          <Name>Departamento</Name>
+        <AttributeRelationship dwd:design-time-name="1fd55402-0667-47dc-9c15-125f4a3b55db">
+          <AttributeID>Dim Aeropuerto Departamento</AttributeID>
+          <Name>Dim Aeropuerto Departamento</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="eabb83e4-272e-4770-8b59-bb1cd1f04044">
-          <AttributeID>Capacidad Operativa Hora</AttributeID>
-          <Name>Capacidad Operativa Hora</Name>
+        <AttributeRelationship dwd:design-time-name="5a890e66-5054-44ab-a8ca-f9dfd6d476a6">
+          <AttributeID>Dim Aeropuerto Capacidad Operativa Hora</AttributeID>
+          <Name>Dim Aeropuerto Capacidad Operativa Hora</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d8aadfb8-b0b7-42be-a317-b9ed43b57258">
-      <ID>Codigo IATA</ID>
-      <Name>Codigo IATA</Name>
+    <Attribute dwd:design-time-name="ea9cee0d-aea9-4d2b-a10f-359bba2a139f">
+      <ID>Dim Aeropuerto Codigo IATA</ID>
+      <Name>Dim Aeropuerto Codigo IATA</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5169b62c-ed20-4a84-ba0c-af3ef0d1eb11">
+        <KeyColumn dwd:design-time-name="d599f68a-d014-40c7-bfa6-901efc9de1d7">
           <DataType>WChar</DataType>
           <DataSize>3</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="24cb58e3-3c9b-42c5-867e-589025ecf6ec">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e84733d0-6c5c-4b3c-8db4-b248a88bb841">
             <TableID>dbo_DimAeropuerto</TableID>
-            <ColumnID>CodigoIATA</ColumnID>
+            <ColumnID>DimAeropuertoCodigoIATA</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="86f6d5cd-f46e-4b24-b715-e8319def8ab9">
-      <ID>Nombre Aeropuerto</ID>
-      <Name>Nombre Aeropuerto</Name>
+    <Attribute dwd:design-time-name="44f1c080-a089-4c42-b1c3-3e1d90830062">
+      <ID>Dim Aeropuerto Nombre Aeropuerto</ID>
+      <Name>Dim Aeropuerto Nombre Aeropuerto</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="deb088bf-970a-4cb8-877e-0539319b126e">
+        <KeyColumn dwd:design-time-name="a12e7db2-fc40-4c8f-b1c0-847f76fba156">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c30a09f5-e9e3-4ceb-8f71-f8fcfae9c6e0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7708d823-1f24-45df-ae3b-29f177763dca">
             <TableID>dbo_DimAeropuerto</TableID>
-            <ColumnID>NombreAeropuerto</ColumnID>
+            <ColumnID>DimAeropuertoNombreAeropuerto</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="16daf7e8-a696-43b1-b605-7ca574ee8508">
-      <ID>Ciudad</ID>
-      <Name>Ciudad</Name>
+    <Attribute dwd:design-time-name="5f63945e-f718-4212-b574-cb5c4c5a74a5">
+      <ID>Dim Aeropuerto Ciudad</ID>
+      <Name>Dim Aeropuerto Ciudad</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4c2e7134-25d1-427c-ac81-2ffca9c62903">
+        <KeyColumn dwd:design-time-name="5748cdd5-236c-49f8-9e7e-15889a92e23c">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="85124ac2-94db-4892-8b3e-444ea6bcf9d4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="efd2d5d3-f2bd-43c6-930f-69c37de6f200">
             <TableID>dbo_DimAeropuerto</TableID>
-            <ColumnID>Ciudad</ColumnID>
+            <ColumnID>DimAeropuertoCiudad</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="93b044bc-56fe-420f-b8f5-b1264b345092">
-      <ID>Departamento</ID>
-      <Name>Departamento</Name>
+    <Attribute dwd:design-time-name="a9d0fb57-5bb3-41b8-a6f7-06f3ca873b11">
+      <ID>Dim Aeropuerto Departamento</ID>
+      <Name>Dim Aeropuerto Departamento</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="156a6b3f-037d-4b33-833c-59a2be009ee3">
+        <KeyColumn dwd:design-time-name="100fb97e-ff28-4df8-a136-dfdb81ab9497">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1afafcff-99a8-426d-a794-8bb6c414e41a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d976e3ca-c9bb-4611-8069-686c79770d0b">
             <TableID>dbo_DimAeropuerto</TableID>
-            <ColumnID>Departamento</ColumnID>
+            <ColumnID>DimAeropuertoDepartamento</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cfa7c8f2-0938-44e8-88f1-52fd954cbac9">
-      <ID>Capacidad Operativa Hora</ID>
-      <Name>Capacidad Operativa Hora</Name>
+    <Attribute dwd:design-time-name="b6abc594-97d0-4b9d-97e2-a3deb3b7ad53">
+      <ID>Dim Aeropuerto Capacidad Operativa Hora</ID>
+      <Name>Dim Aeropuerto Capacidad Operativa Hora</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="95586f66-c0db-423d-9eb3-c3b5f45fa051">
+        <KeyColumn dwd:design-time-name="8457a6f6-b1be-4d96-9653-c866cb8d4ab8">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9e939c2-3dd4-497d-9ca8-a7d10776f31a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef2f0cd4-42b5-4f06-972d-8d15035382ed">
             <TableID>dbo_DimAeropuerto</TableID>
-            <ColumnID>CapacidadOperativaHora</ColumnID>
+            <ColumnID>DimAeropuertoCapacidadOperativaHora</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

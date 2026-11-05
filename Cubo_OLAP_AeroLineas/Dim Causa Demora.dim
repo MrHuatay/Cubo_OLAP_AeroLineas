@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74e20be9-4c90-4759-b5cf-81a130da8f47" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="57f9800b-2d6d-4dfa-b6fd-1f36a35bf4db" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Causa Demora</ID>
   <Name>Dim Causa Demora</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2811" scrolltop="-6932" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9446" y="16589" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-445" scrolltop="-4975" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7133" y="12256" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -19,9 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCausaDemora" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCausaDemora" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6202" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000c80e0000a50a0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e00003a18000003090000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2811</Value>
+      <Value>-445</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6932</Value>
+      <Value>-4975</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,90 +68,90 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="eca049fa-0eb1-4e41-9354-6ef3d048abf7">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="33d3cd76-7043-47a3-9106-20eb390c97f7">
     <DataSourceViewID>BD Aerolineas</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="15ac4e42-87b5-46e9-9eaa-e34549ebda52">
+  <ErrorConfiguration dwd:design-time-name="d5af8486-a7df-47b0-bd56-ef85b4f37f22">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2fdd203c-bdb5-4beb-b73c-d0774e9dc255">
-      <ID>Id Causa PK</ID>
-      <Name>Id Causa PK</Name>
+    <Attribute dwd:design-time-name="266c60cb-def9-44db-a541-e9136fd8216a">
+      <ID>Dim Causa Demora Codigo</ID>
+      <Name>Dim Causa Demora Codigo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="94b307b4-42dd-4a04-a0d0-a4918a566cfe">
+        <KeyColumn dwd:design-time-name="e1b67795-675c-455e-8cdf-8b365dbe3a74">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c68e8de8-784c-462a-84c4-d67bbb5cef14">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2fbd24aa-7e0b-41b3-9eae-49cab0475569">
             <TableID>dbo_DimCausaDemora</TableID>
-            <ColumnID>IdCausaPK</ColumnID>
+            <ColumnID>DimCausaDemoraCodigo</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f15bdc62-a747-4cd2-9feb-4aa7de2d072e">
-          <AttributeID>Descripcion Causa</AttributeID>
-          <Name>Descripcion Causa</Name>
+        <AttributeRelationship dwd:design-time-name="daee4318-eb2b-4e51-9123-25fdf8a1239d">
+          <AttributeID>Dim Causa Demora Descripcion Causa</AttributeID>
+          <Name>Dim Causa Demora Descripcion Causa</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="895731b2-4b01-4f4b-b236-29cdcd369d5a">
-          <AttributeID>Categoria Causa</AttributeID>
-          <Name>Categoria Causa</Name>
+        <AttributeRelationship dwd:design-time-name="db8bc58f-67af-4673-be7a-0219e73426ce">
+          <AttributeID>Dim Causa Demora Categoria Causa</AttributeID>
+          <Name>Dim Causa Demora Categoria Causa</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a8dcd448-7c58-4ee9-ab33-2ec747f02bd1">
-          <AttributeID>Aplica Indemnizacion</AttributeID>
-          <Name>Aplica Indemnizacion</Name>
+        <AttributeRelationship dwd:design-time-name="0b084ad2-1110-4752-93fb-c7ba6d27f36e">
+          <AttributeID>Dim Causa Demora Aplica Indemnizacion</AttributeID>
+          <Name>Dim Causa Demora Aplica Indemnizacion</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e0f46a64-ab6e-44b9-bf07-02290872f635">
-      <ID>Descripcion Causa</ID>
-      <Name>Descripcion Causa</Name>
+    <Attribute dwd:design-time-name="d018d2c8-856e-4c89-bce7-22452d25ebf4">
+      <ID>Dim Causa Demora Descripcion Causa</ID>
+      <Name>Dim Causa Demora Descripcion Causa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bceeec90-c5e4-4c9b-bef9-3f1142b5d0cc">
+        <KeyColumn dwd:design-time-name="198c735a-327a-472a-99e4-40c886ba5268">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="63082b66-6d7b-444f-88ab-551170322636">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcc0de61-1e23-4d92-8847-4530be60128a">
             <TableID>dbo_DimCausaDemora</TableID>
-            <ColumnID>DescripcionCausa</ColumnID>
+            <ColumnID>DimCausaDemoraDescripcionCausa</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="574129f1-4574-4979-844b-95e95d8d99dc">
-      <ID>Categoria Causa</ID>
-      <Name>Categoria Causa</Name>
+    <Attribute dwd:design-time-name="b9828dbb-4a0f-4655-8705-aca7d005ef7c">
+      <ID>Dim Causa Demora Categoria Causa</ID>
+      <Name>Dim Causa Demora Categoria Causa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bdc1038f-7b87-4206-b491-ed097d50511c">
+        <KeyColumn dwd:design-time-name="adeec327-46b4-46ad-9439-5829066e9f16">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2eb0c47-a3b8-42a8-ad47-dfb58648b2cc">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="062aa337-69de-470d-9040-3b9eeebd5d3c">
             <TableID>dbo_DimCausaDemora</TableID>
-            <ColumnID>CategoriaCausa</ColumnID>
+            <ColumnID>DimCausaDemoraCategoriaCausa</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="461ac96c-be29-4b3f-a361-9038673853d8">
-      <ID>Aplica Indemnizacion</ID>
-      <Name>Aplica Indemnizacion</Name>
+    <Attribute dwd:design-time-name="1a6af0ee-921e-4d0b-a4b4-485d11f4ee74">
+      <ID>Dim Causa Demora Aplica Indemnizacion</ID>
+      <Name>Dim Causa Demora Aplica Indemnizacion</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c96d6d3a-ae17-4ee4-9fcb-da6a9ee5ea77">
+        <KeyColumn dwd:design-time-name="3cd593d7-581b-40e6-827c-3c94e0e308bd">
           <DataType>WChar</DataType>
           <DataSize>2</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="18c3b91b-dd82-425a-bb5e-80d1bc90b3e8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26425821-9bef-4236-bc49-461f36946992">
             <TableID>dbo_DimCausaDemora</TableID>
-            <ColumnID>AplicaIndemnizacion</ColumnID>
+            <ColumnID>DimCausaDemoraAplicaIndemnizacion</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
